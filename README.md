@@ -2,6 +2,7 @@
 
 Please follow these steps:
 
+1. Follow the directions in the java file.
 1. To start, [**fork** the repository][forking].
 1. [**Clone**][ref-clone] the repository to your computer.
 1. Modify the files and [**commit**][ref-commit] changes to complete your solution.
