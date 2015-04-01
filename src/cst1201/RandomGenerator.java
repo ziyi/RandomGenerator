@@ -1,6 +1,6 @@
 package cst1201;
 
-public class DieRoller {
+public class RandomGenerator {
 
     public static void main(String[] args) {
         //TODO: Create a Scanner object to read keyboard input.
