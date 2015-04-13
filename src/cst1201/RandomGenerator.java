@@ -10,8 +10,8 @@ public class RandomGenerator {
          int minn;
          System.out.print("Input a number of random integers to generate: ");
          Scanner keyboard = new Scanner(System.in);
-        
          int num = keyboard.nextInt();
+         
          Random rand = new Random();
          System.out.print("Input a max number:");
          int max = keyboard.nextInt();
@@ -31,7 +31,9 @@ public class RandomGenerator {
          }
          System.out.println();
         
-         int average = sum / 5;
+         
+         double average=sum/num;
+         System.out.println("There are total " + num + " numbers.");
          System.out.println("The average is " + average);
          System.out.println("The sum is " + sum);
          System.out.println("The max number is " + maxx);
